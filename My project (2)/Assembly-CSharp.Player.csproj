@@ -247,6 +247,7 @@
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\20 Ground Material Sets MAN MADE\readme.txt" />
     <None Include="Assets\HTC.UnityPlugin\ViveInputUtility\changelog.txt" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />

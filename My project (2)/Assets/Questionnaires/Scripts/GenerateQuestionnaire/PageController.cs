@@ -25,7 +25,6 @@ namespace VRQuestionnaireToolkit
 
         void hideOrShowPlanes()
         {
-
             _plane1 = GameObject.FindGameObjectWithTag("plane1");
             render1 = _plane1.GetComponentInChildren<MeshRenderer>();
             _plane2 = GameObject.FindGameObjectWithTag("plane2");
@@ -49,7 +48,7 @@ namespace VRQuestionnaireToolkit
 
             int p = PlaneStats.plane_no;
             print(p);
-            
+
             if (p == 0)
             {
                 render1.enabled = false;
@@ -195,7 +194,7 @@ namespace VRQuestionnaireToolkit
                 render9.enabled = false;
                 render10.enabled = true;
             }
-            else 
+            else
             {
                 render1.enabled = false;
                 render2.enabled = false;
@@ -397,7 +396,7 @@ namespace VRQuestionnaireToolkit
             --_pageFactory.CurrentPage;
             _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(true);
 
-            PlaneStats.plane_no--;
+            PlaneStats.plane_no --;
             hideOrShowPlanes();
 
         }
@@ -409,8 +408,8 @@ namespace VRQuestionnaireToolkit
             while (timer <= 1)
             {
                 timer += increment;
-                textObj.GetComponent<TextMeshProUGUI>().color = 
-                    Color.Lerp(Color.black, Color.red, Mathf.Abs(Mathf.Sin(3*Mathf.PI*timer))); // blink 3 times from black to red.
+                textObj.GetComponent<TextMeshProUGUI>().color =
+                    Color.Lerp(Color.black, Color.red, Mathf.Abs(Mathf.Sin(3 * Mathf.PI * timer))); // blink 3 times from black to red.
                 yield return new WaitForSeconds(increment);
             }
         }
