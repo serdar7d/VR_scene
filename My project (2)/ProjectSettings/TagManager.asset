@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - VRQuestionnaireToolkit
+  - ExportToCSV
+  - QuestionnaireFactory
+  - FeedbackElement
+  - plane1
+  - plane2
+  - plane3
+  - plane4
+  - plane5
+  - plane6
+  - plane7
+  - plane8
+  - plane9
+  - plane10
   layers:
   - Default
   - TransparentFX

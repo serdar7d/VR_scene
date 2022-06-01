@@ -17,17 +17,209 @@ namespace VRQuestionnaireToolkit
     public class PageController : MonoBehaviour
     {
         private GameObject _vrQuestionnaireFactory;
+        public GameObject _plane1, _plane2, _plane3, _plane4, _plane5, _plane6, _plane7, _plane8, _plane9, _plane10;
+        public MeshRenderer render1, render2, render3, render4, render5, render6, render7, render8, render9, render10;
         private PageFactory _pageFactory;
         private GameObject _export;
         public List<GameObject> unansweredMandatoryQuestions;
+
+        void hideOrShowPlanes()
+        {
+
+            _plane1 = GameObject.FindGameObjectWithTag("plane1");
+            render1 = _plane1.GetComponentInChildren<MeshRenderer>();
+            _plane2 = GameObject.FindGameObjectWithTag("plane2");
+            render2 = _plane2.GetComponentInChildren<MeshRenderer>();
+            _plane3 = GameObject.FindGameObjectWithTag("plane3");
+            render3 = _plane3.GetComponentInChildren<MeshRenderer>();
+            _plane4 = GameObject.FindGameObjectWithTag("plane4");
+            render4 = _plane4.GetComponentInChildren<MeshRenderer>();
+            _plane5 = GameObject.FindGameObjectWithTag("plane5");
+            render5 = _plane5.GetComponentInChildren<MeshRenderer>();
+            _plane6 = GameObject.FindGameObjectWithTag("plane6");
+            render6 = _plane6.GetComponentInChildren<MeshRenderer>();
+            _plane7 = GameObject.FindGameObjectWithTag("plane7");
+            render7 = _plane7.GetComponentInChildren<MeshRenderer>();
+            _plane8 = GameObject.FindGameObjectWithTag("plane8");
+            render8 = _plane8.GetComponentInChildren<MeshRenderer>();
+            _plane9 = GameObject.FindGameObjectWithTag("plane9");
+            render9 = _plane9.GetComponentInChildren<MeshRenderer>();
+            _plane10 = GameObject.FindGameObjectWithTag("plane10");
+            render10 = _plane10.GetComponentInChildren<MeshRenderer>();
+
+            int p = PlaneStats.plane_no;
+            print(p);
+            
+            if (p == 0)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+
+
+            }
+            else if (p == 1)
+            {
+                render1.enabled = true;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 2)
+            {
+                render1.enabled = false;
+                render2.enabled = true;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 3)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = true;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 4)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = true;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 5)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = true;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 6)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = true;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 7)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = true;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 8)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = true;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+            else if (p == 9)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = true;
+                render10.enabled = false;
+            }
+            else if (p == 10)
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = true;
+            }
+            else 
+            {
+                render1.enabled = false;
+                render2.enabled = false;
+                render3.enabled = false;
+                render4.enabled = false;
+                render5.enabled = false;
+                render6.enabled = false;
+                render7.enabled = false;
+                render8.enabled = false;
+                render9.enabled = false;
+                render10.enabled = false;
+            }
+
+        }
 
         void Start()
         {
             //init necessary relationships
             _vrQuestionnaireFactory = GameObject.FindGameObjectWithTag("QuestionnaireFactory");
+
             _export = GameObject.FindGameObjectWithTag("ExportToCSV");
             _pageFactory = _vrQuestionnaireFactory.GetComponent<PageFactory>();
             unansweredMandatoryQuestions = new List<GameObject>();
+            hideOrShowPlanes();
         }
 
         public bool CheckMandatoryQuestionsAnswered()
@@ -167,6 +359,8 @@ namespace VRQuestionnaireToolkit
                 ++_pageFactory.CurrentPage;
                 _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(true);
 
+                PlaneStats.plane_no ++;
+                hideOrShowPlanes();
                 //reached second-last page
                 if (_pageFactory.PageList.Count - 2 == _pageFactory.CurrentPage)
                 {
@@ -198,9 +392,14 @@ namespace VRQuestionnaireToolkit
          */
         public void GoToPreviousPage()
         {
+            _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(true);
             _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(false);
             --_pageFactory.CurrentPage;
             _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(true);
+
+            PlaneStats.plane_no--;
+            hideOrShowPlanes();
+
         }
 
         IEnumerator ChangeTextColor(GameObject textObj)

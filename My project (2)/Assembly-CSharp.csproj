@@ -231,6 +231,7 @@
     <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\GenerateQuestionnaire.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\PageController.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\PageFactory.cs" />
+    <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\PlaneStats.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\Questions\Checkbox.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\Questions\Dropdown.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\Questions\LinearGrid.cs" />
