@@ -18,6 +18,7 @@ TagManager:
   - plane8
   - plane9
   - plane10
+  - plane0
   layers:
   - Default
   - TransparentFX
