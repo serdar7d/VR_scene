@@ -24,17 +24,17 @@ namespace VRQuestionnaireToolkit
         public List<MeshRenderer> renders;
         public List<GameObject> planes;
 
-        int plane_amount = 10;
+        int plane_amount = 11;
 
         void hideOrShowPlanes()
         {
-            for (int i = 0; i <= plane_amount; i++)
+            for (int i = 0; i < plane_amount; i++)
                 planes.Add(GameObject.FindGameObjectWithTag(string.Concat("plane", i.ToString())));
 
-            for (int i = 0; i <= plane_amount; i++)
+            for (int i = 0; i < plane_amount; i++)
                 renders.Add(planes[i].GetComponentInChildren<MeshRenderer>());
 
-            for (int i = 0; i <= plane_amount; i++)
+            for (int i = 0; i < plane_amount; i++)
                 renders[i].enabled = false;
 
             int q = PlaneStats.questionaire_no;
