@@ -22,5 +22,6 @@ namespace VRQuestionnaireToolkit
         public static int[] plane_com = plane_com1;
         public static int plane_no = 0;
         public static int questionaire_no = 1;
+        public static int firedEvent = 0;
     }
 }

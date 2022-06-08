@@ -43,13 +43,12 @@ namespace VRQuestionnaireToolkit
         private int numberQuestionnaires;
         private string qId;
         private string pId;
-        private int firedEvents = 0;
 
 
         private void FireEvent()
         {
             print("QuestionnaireFinishedEvent");
-            firedEvents++;
+            PlaneStats.firedEvent++;
         }
 
         void Start()
@@ -116,17 +115,16 @@ namespace VRQuestionnaireToolkit
 
         private void Update()
         {
-            if (firedEvents == 1)
+            if (PlaneStats.firedEvent == 1)
             {
+                PlaneStats.plane_no = 0;
                 PlaneStats.questionaire_no = 2;
                 Questionnaires[0].SetActive(false);
                 Questionnaires[1].SetActive(true);
             }
-            if (firedEvents == 2)
+            if (PlaneStats.firedEvent == 2)
             {
                 PlaneStats.questionaire_no = 3;
-                PlaneStats.plane_no = 0;
-                Questionnaires[0].SetActive(false);
                 Questionnaires[1].SetActive(false);
                 Questionnaires[2].SetActive(true);
             }

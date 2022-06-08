@@ -1,0 +1,171 @@
+{
+   "qTitle":"Example Questionnaire",
+   "qInstructions":"Please answer all questions....",
+   "qId":"exampleQE",
+   "questions":[
+
+       {
+         "pId":"page1",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      },
+      {
+         "pId":"page2",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s2",
+               "qText":"How slippery does this surface look?",
+	       "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"20",
+               "qMaxLabel":"High"
+            }
+         ]
+      },
+      {
+         "pId":"page3",
+         "qType":"radio",
+         "qInstructions":"Choose an option...",
+         "qData":[
+            {
+               "qId":"q4",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qOptions":[
+                  "Not Slippery at all",
+		  "Less Slippery",
+                  "Slippery",
+                  "More Slippery",
+		  "Extremely Slippery"
+               ]
+             },]
+	},
+        {
+         "pId":"page4",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s4",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      },
+       {
+         "pId":"page5",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s5",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      },
+       {
+         "pId":"page6",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s6",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      }
+       {
+         "pId":"page7",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s4",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      }
+       {
+         "pId":"page8",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s4",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      }
+       {
+         "pId":"page9",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s4",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      }
+       {
+         "pId":"page10",
+         "qType":"linearGrid",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s4",
+               "qText":"How slippery does this surface look?",
+               "qMandatory":"true",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      }
+   ],
+   "qMessage":"You have completed the questionnaire",
+   "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"
+}
