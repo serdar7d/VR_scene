@@ -160,7 +160,7 @@ namespace VRQuestionnaireToolkit
         /// </summary>
         void SetTransformToDefault()
         {
-            this.transform.localPosition = new Vector3(0.0f, 2.5f, 6.3f);
+            this.transform.localPosition = new Vector3(0.0f, 2.6f, 4.53f);
             this.transform.localRotation = Quaternion.identity;
             this.transform.localScale = new Vector3(0.013f, 0.013f, 0.01f);
         }
