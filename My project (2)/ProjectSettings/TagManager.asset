@@ -19,6 +19,12 @@ TagManager:
   - plane9
   - plane10
   - plane0
+  - plane11
+  - plane12
+  - plane13
+  - plane14
+  - plane15
+  - plane16
   layers:
   - Default
   - TransparentFX

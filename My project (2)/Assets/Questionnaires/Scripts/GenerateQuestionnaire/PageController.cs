@@ -24,7 +24,7 @@ namespace VRQuestionnaireToolkit
         public List<MeshRenderer> renders;
         public List<GameObject> planes;
 
-        int plane_amount = 11;
+        int plane_amount = 16;
 
         void hideOrShowPlanes()
         {
