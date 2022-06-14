@@ -11,7 +11,7 @@
          "qData":[
             {
                "qId":"s1",
-               "qText":"How slippery does this surface look?",
+               "qText":"How slippery does this shoe feel?",
                "qMin":"0",
                "qMinLabel":"Low",
                "qMax":"10",
@@ -19,81 +19,44 @@
             }
          ]
       },
-      {
+       {
          "pId":"page2",
-         "qType":"linearGrid",
+         "qType":"linearSlider",
          "qInstructions":"Please rate all measures by clicking a point on the scale.",
          "qData":[
             {
-               "qId":"s2",
-               "qText":"How slippery does this surface look?",
-	       "qMandatory":"true",
+               "qId":"s1",
+               "qText":"How slippery does this shoe feel?",
                "qMin":"0",
                "qMinLabel":"Low",
-               "qMax":"20",
+               "qMax":"10",
                "qMaxLabel":"High"
             }
          ]
       },
-      {
+       {
          "pId":"page3",
-         "qType":"radio",
-         "qInstructions":"Choose an option...",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
          "qData":[
             {
-               "qId":"q4",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qOptions":[
-                  "Not Slippery at all",
-		  "Less Slippery",
-                  "Slippery",
-                  "More Slippery",
-		  "Extremely Slippery"
-               ]
-             },]
-	},
-        {
+               "qId":"s1",
+               "qText":"How slippery does this shoe feel?",
+               "qMin":"0",
+               "qMinLabel":"Low",
+               "qMax":"10",
+               "qMaxLabel":"High"
+            }
+         ]
+      },
+       {
          "pId":"page4",
-         "qType":"linearGrid",
+         "qType":"linearSlider",
          "qInstructions":"Please rate all measures by clicking a point on the scale.",
          "qData":[
             {
-               "qId":"s4",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      },
-       {
-         "pId":"page5",
-         "qType":"linearGrid",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s5",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      },
-       {
-         "pId":"page6",
-         "qType":"linearGrid",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s6",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
+               "qId":"s1",
+               "qText":"How slippery does this shoe feel?",
                "qMin":"0",
                "qMinLabel":"Low",
                "qMax":"10",
@@ -101,70 +64,7 @@
             }
          ]
       }
-       {
-         "pId":"page7",
-         "qType":"linearGrid",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s4",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      }
-       {
-         "pId":"page8",
-         "qType":"linearGrid",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s4",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      }
-       {
-         "pId":"page9",
-         "qType":"linearGrid",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s4",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      }
-       {
-         "pId":"page10",
-         "qType":"linearGrid",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s4",
-               "qText":"How slippery does this surface look?",
-               "qMandatory":"true",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      }
+
    ],
    "qMessage":"You have completed the questionnaire",
    "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"

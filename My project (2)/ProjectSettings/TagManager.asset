@@ -25,6 +25,9 @@ TagManager:
   - plane14
   - plane15
   - plane16
+  - projectile
+  - FxTemporaire
+  - plane17
   layers:
   - Default
   - TransparentFX

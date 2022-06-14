@@ -48,6 +48,7 @@ namespace VRQuestionnaireToolkit
         private void FireEvent()
         {
             print("QuestionnaireFinishedEvent");
+            PlaneStats.plane_no = 0;
             PlaneStats.firedEvent++;
         }
 
@@ -117,7 +118,6 @@ namespace VRQuestionnaireToolkit
         {
             if (PlaneStats.firedEvent == 1)
             {
-                PlaneStats.plane_no = 0;
                 PlaneStats.questionaire_no = 2;
                 Questionnaires[0].SetActive(false);
                 Questionnaires[1].SetActive(true);
@@ -127,6 +127,24 @@ namespace VRQuestionnaireToolkit
                 PlaneStats.questionaire_no = 3;
                 Questionnaires[1].SetActive(false);
                 Questionnaires[2].SetActive(true);
+            }
+            if (PlaneStats.firedEvent == 3)
+            {
+                PlaneStats.questionaire_no = 4;
+                Questionnaires[2].SetActive(false);
+                Questionnaires[3].SetActive(true);
+            }
+            if (PlaneStats.firedEvent == 4)
+            {
+                PlaneStats.questionaire_no = 5;
+                Questionnaires[3].SetActive(false);
+                Questionnaires[4].SetActive(true);
+            }
+            if (PlaneStats.firedEvent == 5)
+            {
+                PlaneStats.questionaire_no = 6;
+                Questionnaires[4].SetActive(false);
+                Questionnaires[5].SetActive(true);
             }
         }
 

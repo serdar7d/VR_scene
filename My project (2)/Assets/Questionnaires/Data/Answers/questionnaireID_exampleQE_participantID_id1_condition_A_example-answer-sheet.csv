@@ -1,12 +1,6 @@
 QuestionType;Question;QuestionID;Answer
-linearSlider;How slippery does this surface look?;s1;5
-linearGrid;How slippery does this surface look?;s2;16
-radio;How slippery does this surface look?;q4;4
-linearGrid;How slippery does this surface look?;s4;5
-linearGrid;How slippery does this surface look?;s5;6
-linearGrid;How slippery does this surface look?;s6;7
-linearGrid;How slippery does this surface look?;s4;7
-linearGrid;How slippery does this surface look?;s4;7
-linearGrid;How slippery does this surface look?;s4;5
-linearGrid;How slippery does this surface look?;s4;9
+linearGrid;How well does the shoe's slippery match with this surface?;s2;12
+linearGrid;How well does the shoe's slippery match with this surface?;s2;13
+linearGrid;How well does the shoe's slippery match with this surface?;s2;13
+linearGrid;How well does the shoe's slippery match with this surface?;s2;13
 
