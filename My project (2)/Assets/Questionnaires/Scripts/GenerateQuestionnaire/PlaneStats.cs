@@ -25,7 +25,7 @@ namespace VRQuestionnaireToolkit
         public static int[] plane_com_4_p7 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
         public static int[] plane_com_4_p8 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
 
-        public static int[] plane_com = plane_com_4_p8;
+        public static int[] plane_com = plane_com_4_p1;
         public static int iter = 0;
         public static int questionaire_no = 1;
         public static int firedEvent = 0;
