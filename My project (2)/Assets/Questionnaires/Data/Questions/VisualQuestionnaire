@@ -1,0 +1,286 @@
+{
+   "qTitle":"Example Questionnaire",
+   "qInstructions":"Please answer all questions....",
+   "qId":"exampleQE",
+   "questions":[
+
+       {
+         "pId":"page1",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_1_2",
+   "qType":"checkbox",
+   "qInstructions":"Please answer the following question orally",
+   "qOptions":[
+      "It's too expensive",
+      "The technology isn't that good yet ",
+      "There is not enough content and/or games ",
+      "I don't like wearing the headset ",
+      "The experience isn't immersive enough",
+      "The experience isn't better than traditional gaming"
+   ],
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":" What material does this surface look like?",
+         "qMandatory":"false"
+      }
+   ]
+},
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page5",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page6",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page7",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page8",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page9",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page10",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page11",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page12",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page13",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page14",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page15",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page16",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      },
+       {
+         "pId":"page17",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely sticky",
+               "qMax":"9",
+               "qMaxLabel":"eztremely slippery"
+            }
+         ]
+      }
+
+   ],
+   "qMessage":"You have completed the questionnaire",
+   "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"
+}

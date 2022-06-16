@@ -38,12 +38,21 @@ namespace VRQuestionnaireToolkit
                 renders[i].enabled = false;
 
             int q = PlaneStats.questionaire_no;
-            int p = PlaneStats.plane_com[PlaneStats.plane_no];
-            if (q == 2)
-                renders[0].enabled = true;
-            else
+            int p = 0;
+            if (q == 1)
+            {
+                p = PlaneStats.plane_com[(PlaneStats.iter+1)/2];
                 renders[p].enabled = true;
-            print(p);
+            }
+            else if (q == 2)
+                renders[0].enabled = true;
+            else if (q == 3)
+            {
+                p = PlaneStats.plane_com[(PlaneStats.iter + 3) / 4];
+                renders[p].enabled = true;
+            }
+             
+            print("plane" + p);
         }
 
         void Start()
@@ -194,7 +203,7 @@ namespace VRQuestionnaireToolkit
                 ++_pageFactory.CurrentPage;
                 _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(true);
                 if (PlaneStats.questionaire_no!=2)
-                    PlaneStats.plane_no ++;
+                    PlaneStats.iter ++;
                 hideOrShowPlanes();
                 //reached second-last page
                 if (_pageFactory.PageList.Count - 2 == _pageFactory.CurrentPage)
@@ -232,7 +241,7 @@ namespace VRQuestionnaireToolkit
             --_pageFactory.CurrentPage;
             _pageFactory.PageList[_pageFactory.CurrentPage].SetActive(true);
             if (PlaneStats.questionaire_no != 2)
-                PlaneStats.plane_no --;
+                PlaneStats.iter --;
             hideOrShowPlanes();
 
         }

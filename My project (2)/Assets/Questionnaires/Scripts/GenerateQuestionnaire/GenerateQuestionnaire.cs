@@ -48,8 +48,10 @@ namespace VRQuestionnaireToolkit
         private void FireEvent()
         {
             print("QuestionnaireFinishedEvent");
-            PlaneStats.plane_no = 0;
+            print(PlaneStats.currentQuestionnaireId);
+            PlaneStats.iter = 0;
             PlaneStats.firedEvent++;
+            
         }
 
         void Start()
@@ -107,45 +109,44 @@ namespace VRQuestionnaireToolkit
             foreach (string InputPath in JsonInputFiles)
                 GenerateNewQuestionnaire(InputPath);
 
-            for (int i = 1; i < Questionnaires.Count; i++)
-                Questionnaires[i].SetActive(false);
 
-            Questionnaires[0].SetActive(true);
-
+            PlaneStats.currentQuestionnaireId = JsonInputFiles[PlaneStats.firedEvent].Substring(51, 4);
         }
 
         private void Update()
         {
-            if (PlaneStats.firedEvent == 1)
+            if(PlaneStats.firedEvent<9)
             {
-                PlaneStats.questionaire_no = 2;
-                Questionnaires[0].SetActive(false);
-                Questionnaires[1].SetActive(true);
+                PlaneStats.currentQuestionnaireId = JsonInputFiles[PlaneStats.firedEvent].Substring(51, 4);
+                if (JsonInputFiles[PlaneStats.firedEvent].Contains("vq"))
+                {
+                    for (int i = 0; i < Questionnaires.Count; i++)
+                        Questionnaires[i].SetActive(false);
+
+                    Questionnaires[PlaneStats.firedEvent].SetActive(true);
+
+                    PlaneStats.questionaire_no = 1;
+                }
+                else if (JsonInputFiles[PlaneStats.firedEvent].Contains("hq0") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq2") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq3") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq4"))
+                {
+                    for (int i = 0; i < Questionnaires.Count; i++)
+                        Questionnaires[i].SetActive(false);
+
+                    Questionnaires[PlaneStats.firedEvent].SetActive(true);
+
+                    PlaneStats.questionaire_no = 2;
+                }
+                else if (JsonInputFiles[PlaneStats.firedEvent].Contains("vhq0") || JsonInputFiles[PlaneStats.firedEvent].Contains("vhq2") || JsonInputFiles[PlaneStats.firedEvent].Contains("vhq3") || JsonInputFiles[PlaneStats.firedEvent].Contains("vhq4"))
+                {
+                    for (int i = 0; i < Questionnaires.Count; i++)
+                        Questionnaires[i].SetActive(false);
+
+                    Questionnaires[PlaneStats.firedEvent].SetActive(true);
+
+                    PlaneStats.questionaire_no = 3;
+                }
             }
-            if (PlaneStats.firedEvent == 2)
-            {
-                PlaneStats.questionaire_no = 3;
-                Questionnaires[1].SetActive(false);
-                Questionnaires[2].SetActive(true);
-            }
-            if (PlaneStats.firedEvent == 3)
-            {
-                PlaneStats.questionaire_no = 4;
-                Questionnaires[2].SetActive(false);
-                Questionnaires[3].SetActive(true);
-            }
-            if (PlaneStats.firedEvent == 4)
-            {
-                PlaneStats.questionaire_no = 5;
-                Questionnaires[3].SetActive(false);
-                Questionnaires[4].SetActive(true);
-            }
-            if (PlaneStats.firedEvent == 5)
-            {
-                PlaneStats.questionaire_no = 6;
-                Questionnaires[4].SetActive(false);
-                Questionnaires[5].SetActive(true);
-            }
+            
         }
 
         void GenerateNewQuestionnaire(string inputPath)

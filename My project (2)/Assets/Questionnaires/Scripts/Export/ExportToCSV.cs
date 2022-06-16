@@ -48,6 +48,7 @@ namespace VRQuestionnaireToolkit
         private GameObject _pageFactory;
         private GameObject _vrQuestionnaireToolkit;
         private StudySetup _studySetup;
+        private GenerateQuestionnaire _generateQuestionnaire;
         private string _folderPath;
         private string _fileType;
         private string _questionnaireID;
@@ -264,6 +265,7 @@ namespace VRQuestionnaireToolkit
 
 
             //-----Processing responses into the specified data format-----//
+            _questionnaireID = PlaneStats.currentQuestionnaireId;
 
             string _completeFileName = "questionnaireID_" + _questionnaireID + "_participantID_" + _studySetup.ParticipantId + "_condition_" + _studySetup.Condition + "_" + FileName + "." + _fileType;
             string _completeFileName_allResults = "questionnaireID_" + _questionnaireID + "_ALL_" + FileName + "." + _fileType;
