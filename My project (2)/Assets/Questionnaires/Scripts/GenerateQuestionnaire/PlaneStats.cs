@@ -16,19 +16,25 @@ namespace VRQuestionnaireToolkit
 {
     public static class PlaneStats 
     {
-        public static int[] plane_com_4_p1 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p2 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p3 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p4 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p5 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p6 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p7 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-        public static int[] plane_com_4_p8 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
-
-        public static int[] plane_com = plane_com_4_p1;
         public static int iter = 0;
         public static int questionaire_no = 1;
         public static int firedEvent = 0;
         public static string currentQuestionnaireId = "";
+
+        public static int[] vr_scene_order_4_p1 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p2 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p3 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p4 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p5 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p6 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p7 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+        public static int[] vr_scene_order_4_p8 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 0 };
+
+
+        //Set corresponding array for each participant
+        public static int[] plane_com = vr_scene_order_4_p1;
+
+
+
     }
 }

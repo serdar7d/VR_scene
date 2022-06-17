@@ -118,7 +118,7 @@ namespace VRQuestionnaireToolkit
             if(PlaneStats.firedEvent<9)
             {
                 PlaneStats.currentQuestionnaireId = JsonInputFiles[PlaneStats.firedEvent].Substring(51, 4);
-                if (JsonInputFiles[PlaneStats.firedEvent].Contains("vq"))
+                if (JsonInputFiles[PlaneStats.firedEvent].Contains("vq00"))
                 {
                     for (int i = 0; i < Questionnaires.Count; i++)
                         Questionnaires[i].SetActive(false);
@@ -127,7 +127,7 @@ namespace VRQuestionnaireToolkit
 
                     PlaneStats.questionaire_no = 1;
                 }
-                else if (JsonInputFiles[PlaneStats.firedEvent].Contains("hq0") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq2") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq3") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq4"))
+                else if (JsonInputFiles[PlaneStats.firedEvent].Contains("hq00") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq02") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq03") || JsonInputFiles[PlaneStats.firedEvent].Contains("hq04"))
                 {
                     for (int i = 0; i < Questionnaires.Count; i++)
                         Questionnaires[i].SetActive(false);

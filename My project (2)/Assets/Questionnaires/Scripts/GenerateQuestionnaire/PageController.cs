@@ -70,7 +70,7 @@ namespace VRQuestionnaireToolkit
         {
             int countMandatory = 0;
             int answeredMandatory = 0;
-
+/*
             for (int i = 0; i < _pageFactory.QuestionList.Count; i++)
             {
                 if (_pageFactory.GetComponent<PageFactory>().QuestionList[i][0].GetComponentInParent<Radio>() != null)
@@ -184,6 +184,8 @@ namespace VRQuestionnaireToolkit
                 return true;
             else
                 return false;
+*/
+            return true;
         }
 
         /*

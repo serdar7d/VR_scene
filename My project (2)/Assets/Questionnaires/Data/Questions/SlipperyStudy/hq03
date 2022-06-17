@@ -1,70 +1,42 @@
 {
-   "qTitle":"Example Questionnaire",
-   "qInstructions":"Please answer all questions....",
-   "qId":"exampleQE",
+   "qTitle":"Haptic only questionnaire",
+   "qInstructions":"Please wait for further instructions!",
+   "qId":"HapticOnlyQuestionnaire3",
    "questions":[
 
+//page1
        {
          "pId":"page1",
          "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qInstructions":"Please rate how slippery this surface feels?",
          "qData":[
             {
                "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
+               "qText":"How slippery does this surface feel?",
                "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
             }
          ]
       },
-       {
-         "pId":"page2",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      },
-       {
-         "pId":"page3",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
-      },
-       {
-         "pId":"page4",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
+
+{
+   "pId":"page_1_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface feel like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
          ]
       }
-
+   ]
+}
    ],
    "qMessage":"You have completed the questionnaire",
    "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"

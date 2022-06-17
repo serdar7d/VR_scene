@@ -283,7 +283,7 @@ namespace VRQuestionnaireToolkit
                         //ensuring correct placement and scaling in the UI
                         text = temp.GetComponentInChildren<TextMeshProUGUI>();
                         text.text = _qData[i][1];
-                        text.transform.localPosition = new Vector3(0, 120 - (i * 90), text.transform.localPosition.z);
+                        //text.transform.localPosition = new Vector3(0, 120 - (i * 90), text.transform.localPosition.z);
                         SetRec(radioHorizontalRec);
 
                         QuestionList.Add(temp.GetComponent<Dropdown>().CreateDropdownQuestion(qId, qType, qInstructions, _qData[i][0], _qData[i][1], _qData[i][2].AsArray, i, radioHorizontalRec));

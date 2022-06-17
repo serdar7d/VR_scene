@@ -1,9 +1,10 @@
 {
-   "qTitle":"Example Questionnaire",
-   "qInstructions":"Please answer all questions....",
-   "qId":"exampleQE",
+   "qTitle":"Visual only questionnaire",
+   "qInstructions":"Please wait for further instructions!",
+   "qId":"VisualOnlzQuestionnaire",
    "questions":[
 
+//page1
        {
          "pId":"page1",
          "qType":"linearSlider",
@@ -21,264 +22,561 @@
       },
 {
    "pId":"page_1_2",
-   "qType":"checkbox",
+   "qType":"dropdown",
    "qInstructions":"Please answer the following question orally",
-   "qOptions":[
-      "It's too expensive",
-      "The technology isn't that good yet ",
-      "There is not enough content and/or games ",
-      "I don't like wearing the headset ",
-      "The experience isn't immersive enough",
-      "The experience isn't better than traditional gaming"
-   ],
    "qData":[
       {
-         "qId":"q1",
-         "qText":" What material does this surface look like?",
-         "qMandatory":"false"
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
       }
    ]
 },
+
+//page2
+
        {
          "pId":"page2",
          "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qInstructions":"Please rate how slippery this surface looks?",
          "qData":[
             {
                "qId":"s1",
                "qText":"How slippery does this surface look?",
                "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
             }
          ]
       },
-       {
-         "pId":"page3",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page4",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page5",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page6",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page7",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page8",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page9",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page10",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page11",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page12",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page13",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page14",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page15",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page16",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
-         ]
-      },
-       {
-         "pId":"page17",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this surface look?",
-               "qMin":"0",
-               "qMinLabel":"extremely sticky",
-               "qMax":"9",
-               "qMaxLabel":"eztremely slippery"
-            }
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
          ]
       }
+   ]
+},
+
+//page3
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page4
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page5
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page6
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page7
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page8
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page9
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page10
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page11
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page12
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page13
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page14
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page15
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+//page16
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+},
+
+
+// page 17
+
+       {
+         "pId":"page2",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how slippery this surface looks?",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"How slippery does this surface look?",
+               "qMin":"0",
+               "qMinLabel":"extremely\nsticky",
+               "qMax":"8",
+               "qMaxLabel":"extremely\nslippery"
+            }
+         ]
+      },
+{
+   "pId":"page_2_2",
+   "qType":"dropdown",
+   "qInstructions":"Please answer the following question orally",
+   "qData":[
+      {
+         "qId":"d1",
+         "qText":"What material does this surface look like?",
+         "qOptions":[
+            "Yes",
+            "Average",
+            "No"
+         ]
+      }
+   ]
+}
+       
 
    ],
    "qMessage":"You have completed the questionnaire",

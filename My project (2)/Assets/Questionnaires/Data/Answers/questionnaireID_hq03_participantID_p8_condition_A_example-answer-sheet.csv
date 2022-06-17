@@ -1,6 +1,4 @@
 QuestionType;Question;QuestionID;Answer
-linearSlider;How slippery does this shoe feel?;s1;5
-linearSlider;How slippery does this shoe feel?;s1;5
-linearSlider;How slippery does this shoe feel?;s1;5
-linearSlider;How slippery does this shoe feel?;s1;5
+linearSlider;How slippery does this surface feel?;s1;4
+dropdown;What material does this surface feel like?;d1;0
 

@@ -1,69 +1,1188 @@
 {
-   "qTitle":"Example Questionnaire",
-   "qInstructions":"Please answer all questions....",
-   "qId":"exampleQE",
+   "qTitle":"Visual-Haptic Questionnaire",
+   "qInstructions":"Please wait for further instructions!",
+   "qId":"VisualHapticQuestionnaire0",
    "questions":[
 
-       {
-         "pId":"page1",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
-         ]
+//VRscene1
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
       },
-       {
-         "pId":"page2",
-         "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
-         "qData":[
-            {
-               "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
-               "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
-            }
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
          ]
-      },
+      }
+   ]
+},
        {
          "pId":"page3",
          "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
          "qData":[
             {
                "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
                "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
             }
          ]
       },
        {
          "pId":"page4",
          "qType":"linearSlider",
-         "qInstructions":"Please rate all measures by clicking a point on the scale.",
+         "qInstructions":"Please rate how realistic the entire experience is",
          "qData":[
             {
                "qId":"s1",
-               "qText":"How slippery does this shoe feel?",
+               "qText":"Please rate how realistic the entire experience is",
                "qMin":"0",
-               "qMinLabel":"Low",
-               "qMax":"10",
-               "qMaxLabel":"High"
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+
+//VRscene2
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene3
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene4
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene5
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene6
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+
+//VRscene7
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene8
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+//////////////////////////////////////////////// 2nd 8 VR scenes /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//VRscene1
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+
+//VRscene2
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene3
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene4
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene5
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene6
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+
+//VRscene7
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+
+//VRscene8
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
+            }
+         ]
+      },
+ //VRscene17
+{
+   "pId":"page_5",
+   "qType":"linearGrid",
+   "qInstructions":"Please compare\nhow slippery the surface looks\nto how slippery the surface feels!",
+   "qData":[
+      {
+         "qId":"s1",
+         "qText":"Please compare how slippery the surface looks to how slippery the surface feels!",
+         "qMandatory":"true",
+         "qMin":"0",
+         "qMinLabel":"looks\nmore slippery",
+         "qMax":"20",
+         "qMaxLabel":"feels\nmore slippery"
+      },
+   ]
+},
+{
+   "pId":"page_1",
+   "qType":"radio",
+   "qInstructions":"Choose only one option",
+   "qData":[
+      {
+         "qId":"q1",
+         "qText":"Which one is more slippery",
+         "qMandatory":"false",
+         "qOptions":[
+            "",
+            "surface's\nlook",
+            "",
+            "Equal",
+            "",
+            "surface's\nfeel",
+            ""
+         ]
+      }
+   ]
+},
+       {
+         "pId":"page3",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how similar the slipperiness between the surface's look and feel",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how similar the slipperiness between the surface's look and feel",
+               "qMin":"0",
+               "qMinLabel":"exactly\nthe opposite",
+               "qMax":"8",
+               "qMaxLabel":"exactly\nthe same"
+            }
+         ]
+      },
+       {
+         "pId":"page4",
+         "qType":"linearSlider",
+         "qInstructions":"Please rate how realistic the entire experience is",
+         "qData":[
+            {
+               "qId":"s1",
+               "qText":"Please rate how realistic the entire experience is",
+               "qMin":"0",
+               "qMinLabel":"not realistic at all",
+               "qMax":"8",
+               "qMaxLabel":"extremely realistic"
             }
          ]
       }
+
+
 
    ],
    "qMessage":"You have completed the questionnaire",

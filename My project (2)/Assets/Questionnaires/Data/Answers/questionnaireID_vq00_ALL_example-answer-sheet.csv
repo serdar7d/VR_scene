@@ -1,25 +1,36 @@
-QuestionType;Question;QuestionID;Answer_Participant_id1_condition_A
-linearSlider;How slippery does this surface look?;s1;4
-checkbox; What material does this surface look like? -It's too expensive;q1;
-checkbox; What material does this surface look like? -The technology isn't that good yet ;q1;
-checkbox; What material does this surface look like? -There is not enough content and/or games ;q1;
-checkbox; What material does this surface look like? -I don't like wearing the headset ;q1;
-checkbox; What material does this surface look like? -The experience isn't immersive enough;q1;
-checkbox; What material does this surface look like? -The experience isn't better than traditional gaming;q1;
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
-linearSlider;How slippery does this surface look?;s1;0
+QuestionType;Question;QuestionID;Answer_Participant_id1_condition_A;Answer_Participant_p8_condition_A;Answer_Participant_p8_condition_A;Answer_Participant_p8_condition_A;Answer_Participant_p8_condition_A
+linearSlider;How slippery does this surface look?;s1;4;4;4;4;4
+checkbox; What material does this surface look like? -It's too expensive;q1;;1;0;0;0
+checkbox; What material does this surface look like? -The technology isn't that good yet ;q1;;;4;4;4
+checkbox; What material does this surface look like? -There is not enough content and/or games ;q1;;;0;0;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
+;4
+;0
 
