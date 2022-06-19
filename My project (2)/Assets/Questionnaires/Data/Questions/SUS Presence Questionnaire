@@ -21,7 +21,16 @@
                   "6",
                   "7 = very much"
                ]
-            },
+            }
+
+         ]
+      },
+      {
+         "pId":"page1",
+         "qType":"radio",
+         "qInstructions":"Please choose one of the following options...",
+         "qData":[
+
             {
                "qId":"q2",
                "qText":"There were times during the experience when the virtual environment was the reality for me...",
@@ -35,7 +44,16 @@
                   "6",
                   "7 = almost all the time"
                ]
-            },
+            }
+
+         ]
+      },
+      {
+         "pId":"page1",
+         "qType":"radio",
+         "qInstructions":"Please choose one of the following options...",
+         "qData":[
+
             {
                "qId":"q3",
                "qText":"The virtual environment seems to me to be more like...",
@@ -50,6 +68,7 @@
                   "7 = somewhere I visited"
                ]
             }
+
          ]
       },
       {
@@ -71,7 +90,16 @@
                   "6",
                   "7 = being in the VE"
                ]
-            },
+            }
+         ]
+      },
+{
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"Please choose one of the following options...",
+         "qMandatory":"true",
+         "qData":[
+
             {
                "qId":"q5",
                "qText":"I think of the virtual environment as a place in a way similar to other places that I’ve been today...",
@@ -85,7 +113,16 @@
                   "6",
                   "7 = very much so"
                ]
-            },
+            }
+         ]
+      },
+{
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"Please choose one of the following options...",
+         "qMandatory":"true",
+         "qData":[
+
             {
                "qId":"q6",
                "qText":"During the experience I often thought that I was really standing in the virtual environment...",

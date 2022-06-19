@@ -115,7 +115,7 @@ namespace VRQuestionnaireToolkit
 
         private void Update()
         {
-            if(PlaneStats.firedEvent<9)
+            if(PlaneStats.firedEvent<10)
             {
                 PlaneStats.currentQuestionnaireId = JsonInputFiles[PlaneStats.firedEvent].Substring(51, 4);
                 if (JsonInputFiles[PlaneStats.firedEvent].Contains("vq00"))
@@ -144,6 +144,15 @@ namespace VRQuestionnaireToolkit
                     Questionnaires[PlaneStats.firedEvent].SetActive(true);
 
                     PlaneStats.questionaire_no = 3;
+                }
+                else
+                {
+                    for (int i = 0; i < Questionnaires.Count; i++)
+                        Questionnaires[i].SetActive(false);
+
+                    Questionnaires[PlaneStats.firedEvent].SetActive(true);
+
+                    PlaneStats.questionaire_no = 4;
                 }
             }
             

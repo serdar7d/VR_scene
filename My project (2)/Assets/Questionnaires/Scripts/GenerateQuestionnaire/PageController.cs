@@ -41,10 +41,10 @@ namespace VRQuestionnaireToolkit
             int p = 0;
             if (q == 1)
             {
-                p = PlaneStats.plane_com[(PlaneStats.iter+1)/2];
+                p = PlaneStats.plane_com[(PlaneStats.iter + 1) / 2];
                 renders[p].enabled = true;
             }
-            else if (q == 2)
+            else if (q == 2 || q == 4)
                 renders[0].enabled = true;
             else if (q == 3)
             {
