@@ -1,0 +1,4 @@
+QuestionType;Question;QuestionID;Answer_Participant_p1_condition_A;Answer_Participant_p2_condition_A;Answer_Participant_p3_condition_A;Answer_Participant_p3_condition_A
+linearSlider;How slippery does this surface feel?;s1;1;0;6;5
+dropdown;What material does this surface feel like?;d1;0;0;0;0
+

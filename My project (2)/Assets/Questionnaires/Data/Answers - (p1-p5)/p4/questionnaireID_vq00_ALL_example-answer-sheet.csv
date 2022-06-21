@@ -1,0 +1,18 @@
+QuestionType;Question;QuestionID;Answer_Participant_p1_condition_A;Answer_Participant_p2_condition_A;Answer_Participant_p3_condition_A;Answer_Participant_p3_condition_A
+linearSlider;How slippery does this surface look?;s1;4;7;1;2
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;6;1;6;8
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;2;6;8;1
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;1;5;8;4
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;3;0;5;6
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;3;8;6;5
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;6;5;2;4
+dropdown;What material does this surface look like?;d1;0;0;0;0
+linearSlider;How slippery does this surface look?;s1;8;6;5;1
+dropdown;What material does this surface look like?;d1;0;0;0;0
+
