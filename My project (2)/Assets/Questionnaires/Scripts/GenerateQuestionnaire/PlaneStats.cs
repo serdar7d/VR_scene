@@ -45,7 +45,7 @@ namespace VRQuestionnaireToolkit
 
 
         //Set corresponding array for each participant
-        public static int[] plane_com = vr_scene_order_4_p6;
+        public static int[] plane_com = vr_scene_order_4_p7;
 
 
 
