@@ -1,0 +1,44 @@
+1. Consent Data Form
+2. Short Introduction about the study
+3. Participant removes the shoe and sit on the chair by wearing the headset.
+4. Depending on the participant number (px): 
+				a) predefined order of Questionnaire set (from Unity - VRQuestionaireToolkit)
+				b) ParticipantId enter (from Unity - VRQuestionaireToolkit)
+				c) VR scene-plane combination set  (from VSCode - plane_com)
+				d) predefned shoe order
+
+5. Instructions: (shoes will be pre ordered on the table before the study)
+	-Please remove the shoes
+	-Please wear these shoes
+	-Answers to the oral questions will be either recorded or written/noted
+
+6. After study Questionnaires:
+		a) Presence Questionnaire (Ready, printable or get from Donald)
+		b) Demographic Questionnare (Similar to the one used in the last study) : standard questions + VR experience + walking experience
+
+7. Specific questions remarked during the study: why you choose this answer ect.
+
+8. Chocolate as a compensation.
+
+Balanced Latin square:
+             Shoes(A=0; B=2; C=3; D=4):        	Questionnaire order (A = vq; B = hq; C = vhq):
+	p1: 0 2 4 3	   			A B C
+	p2: 0 2 4 3        			A C B
+	p3: 2 3 0 4	   			C A B
+	
+	p4: 2 3 0 4        			vhq2,	vhq3,	vhq0,	vhq4	hq02,	hq03,	hq00,	hq04 	vq00
+
+	p5: 3 4 2 0	   			hq03,	hq04,	hq02,	hq00 	vhq3,	vhq4,	vhq2,	vhq0 	vq00
+
+	p6: 3 4 2 0	   			hq03,	hq04,	hq02,	hq00 	vq00, 	vhq3,	vhq4,	vhq2,	vhq0
+	
+	-----------------------------------------------------------------------------------
+	p7: 4 0 3 2	   			vq00	hq04,	hq00,	hq03,	hq02 	vhq4,	vhq0,	vhq3,	vhq2
+	
+	p8: 4 0 3 2	   			vq00 	vhq4,	vhq0,	vhq3,	vhq2 	hq04,	hq00,	hq03,	hq02
+
+
+				a) predefined order of Questionnaire set (from Unity - VRQuestionaireToolkit)
+				b) ParticipantId enter (from Unity - VRQuestionaireToolkit)
+				c) VR scene-plane combination set  (from VSCode - plane_com)
+				d) predefned shoe order
