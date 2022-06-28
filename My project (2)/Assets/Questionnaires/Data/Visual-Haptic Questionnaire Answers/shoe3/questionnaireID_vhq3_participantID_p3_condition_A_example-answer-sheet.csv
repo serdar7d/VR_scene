@@ -1,0 +1,33 @@
+QuestionType,Question,QuestionID,Answer
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,20
+radio,Which one is more slippery,q1,3
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,0
+linearSlider,Please rate how realistic the entire experience is,s1,1
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,13
+radio,Which one is more slippery,q1,3
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,7
+linearSlider,Please rate how realistic the entire experience is,s1,7
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,6
+radio,Which one is more slippery,q1,1
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,8
+linearSlider,Please rate how realistic the entire experience is,s1,7
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,5
+radio,Which one is more slippery,q1,1
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,7
+linearSlider,Please rate how realistic the entire experience is,s1,7
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,18
+radio,Which one is more slippery,q1,3
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,6
+linearSlider,Please rate how realistic the entire experience is,s1,7
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,11
+radio,Which one is more slippery,q1,3
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,7
+linearSlider,Please rate how realistic the entire experience is,s1,7
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,20
+radio,Which one is more slippery,q1,3
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,0
+linearSlider,Please rate how realistic the entire experience is,s1,0
+linearGrid,Please compare how slippery the surface looks to how slippery the surface feels!,s1,14
+radio,Which one is more slippery,q1,3
+linearSlider,Please rate how similar the slipperiness between the surface's look and feel,s1,6
+linearSlider,Please rate how realistic the entire experience is,s1,7
