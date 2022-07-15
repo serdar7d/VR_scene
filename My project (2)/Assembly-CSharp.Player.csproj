@@ -226,8 +226,8 @@
     <Compile Include="Assets\Questionnaires\Plugin\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Questionnaires\Plugin\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\ExampleExperiment.cs" />
-    <Compile Include="Assets\Questionnaires\Scripts\Export\ExportToCSV.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\FeedbackManager.cs" />
+    <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\Export\ExportToCSV.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\GenerateQuestionnaire.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\PageController.cs" />
     <Compile Include="Assets\Questionnaires\Scripts\GenerateQuestionnaire\PageFactory.cs" />
@@ -241,6 +241,7 @@
     <Compile Include="Assets\Questionnaires\Scripts\StudySetup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Questionnaires\Data\study script.txt" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Questionnaires\Plugin\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
